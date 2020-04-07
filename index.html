@@ -2,6 +2,7 @@
 <html>
 <head>
 <input type="text" placeholder="Your name">
+<div class="box">Copy</div>
 <style>
 body { 
 background-color:#36393f;
@@ -19,13 +20,22 @@ input[type=text]{
     box-sizing:border-box;
     transition:.3s;
     color:#FFFFFF;
-    top:50%;
-    left:50%;
   }
   
   input[type=text]:focus{
     border-color:#7289da;
   }
+    
+.box{
+    width:2%;
+    background-color:#7289da;
+    color:white;
+    border-radius:4px;
+    transition:.3s;
+}
+.box:hover{
+    background-color:#677bc4;
+}
 </style>
 <body>
 </body>
